@@ -4,7 +4,7 @@ from lib.book import Book
 Book constructs with an id, title and author
 """
 def test_artist_constructs():
-    book = Book(1, "Test book", "Test author")
+    book = Book("1", "Test book", "Test author")
     assert book.id == 1
     assert book.title == "Test book"
     assert book.author == "Test author"

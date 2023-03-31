@@ -2,7 +2,7 @@ class Book:
     # We initialise with all of our attributes
     # Each column in the table should have an attribute here
     def __init__(self, id, title, author):
-        self.id = id
+        self.id = int(id)
         self.title = title
         self.author = author
 
